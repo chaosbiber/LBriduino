@@ -1,12 +1,12 @@
-#LBriduino
-##Description
+# LBriduino
+## Description
 This is a PCB design for keencave's [LBridge](https://github.com/keencave/LBridge) code. It's my very first design and still in testing, dragons beware!
 
 Made with free version of EAGLE for BM019 and RFDuino.
 
 ![PCB screenshot](https://raw.githubusercontent.com/chaosbiber/LBriduino/master/pcb.png)
 
-##Parts
+## Parts
 (product links from 2017/12/10)
 
 * BM019  
