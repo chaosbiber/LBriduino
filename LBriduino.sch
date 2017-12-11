@@ -8327,12 +8327,8 @@ Source: www.kingbright.com</description>
 <net name="SWITCH" class="0">
 <segment>
 <label x="53.34" y="0" size="1.778" layer="95" rot="MR0" xref="yes"/>
-<pinref part="BM2" gate="G$1" pin="VDD"/>
-<pinref part="BM2" gate="G$1" pin="SS0"/>
-<wire x1="58.42" y1="2.54" x2="58.42" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="2.54" x2="53.34" y2="2.54" width="0.1524" layer="91"/>
-<junction x="58.42" y="2.54"/>
-<wire x1="53.34" y1="2.54" x2="53.34" y2="0" width="0.1524" layer="91"/>
+<pinref part="BM2" gate="G$1" pin="VIN"/>
+<wire x1="58.42" y1="0" x2="53.34" y2="0" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="+3.3V"/>
@@ -8398,6 +8394,13 @@ Source: www.kingbright.com</description>
 <pinref part="S1" gate="G$1" pin="3"/>
 <wire x1="83.82" y1="66.04" x2="83.82" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="78.74" x2="81.28" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="BM2" gate="G$1" pin="SS0"/>
+<pinref part="BM2" gate="G$1" pin="VDD"/>
+<wire x1="58.42" y1="2.54" x2="58.42" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
