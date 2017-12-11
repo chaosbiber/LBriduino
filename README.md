@@ -4,6 +4,8 @@ This is a PCB design for keencave's [LBridge](https://github.com/keencave/LBridg
 
 Made with free version of EAGLE for BM019 and RFDuino.
 
+The switch has the states On (1-2) and Off/Testing (2-3). The batterie can be charged in any state, in the off-state the NFC and RFDuino modules are disconnected. But there are two testing vias that can be shorted or connected to an ampere meter.
+
 ![PCB screenshot](https://raw.githubusercontent.com/chaosbiber/LBriduino/master/pcb.png)
 
 ## Parts
@@ -16,6 +18,7 @@ http://www.warburtech.co.uk/products/modules/solutions.cubed.bm019.serial.to.nfc
 https://www.mouser.de/ProductDetail/RF-Digital-Wireless/RFD22301/
 * Lipo Charger IC MCP73831T-2ACI/OT
 * C1/C2: Capacitor 0603 4.7µF (measured 3.8µF)
+* C3: Capacitor 0603 100nF (to program RFDuino)
 * R1: 330 Ohm
 * R2: 3kOhm (for ~333mA charging speed, default 2kOhm for ~500mA. Ic = 1000/R2)
 * red LED 0603
