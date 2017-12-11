@@ -8107,6 +8107,7 @@ Source: www.kingbright.com</description>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="PROG" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="BAT" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="GND9" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8135,6 +8136,7 @@ Source: www.kingbright.com</description>
 <instance part="GND8" gate="1" x="-12.7" y="-7.62"/>
 <instance part="PROG" gate="A" x="127" y="15.24"/>
 <instance part="BAT" gate="G$1" x="127" y="40.64"/>
+<instance part="GND9" gate="1" x="33.02" y="17.78"/>
 </instances>
 <busses>
 </busses>
@@ -8246,6 +8248,13 @@ Source: www.kingbright.com</description>
 <pinref part="BAT" gate="G$1" pin="1"/>
 <wire x1="124.46" y1="43.18" x2="109.22" y2="43.18" width="0.1524" layer="91"/>
 <label x="109.22" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="GND@3"/>
+<wire x1="27.94" y1="15.24" x2="27.94" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="22.86" x2="33.02" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="GND9" gate="1" pin="GND"/>
+<wire x1="33.02" y1="22.86" x2="33.02" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
