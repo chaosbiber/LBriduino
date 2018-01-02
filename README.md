@@ -4,9 +4,11 @@ This is a PCB design for keencave's [LBridge](https://github.com/keencave/LBridg
 
 Made with free version of EAGLE for BM019 and RFDuino.
 
-The switch has the states On (1-2) and Off/Testing (2-3). The batterie can be charged in any state, in the off-state the NFC and RFDuino modules are disconnected. But there are two testing vias that can be shorted or connected to an ampere meter.
+The switch has the states On (1-2) and Off/Testing (2-3). The battery can be charged in any state, in the off-state the NFC and RFDuino modules are disconnected. But there are two testing vias that can be shorted or connected to an ampere meter.
 
 ![PCB screenshot](https://raw.githubusercontent.com/chaosbiber/LBriduino/master/pcb.png)
+
+There's **a bug** in the current design: Between C1 and C2 a line to ground is missing.
 
 ## Parts
 (product links from 2017/12/10)
